@@ -9,7 +9,6 @@ radius = 7.0
 [node name="Enemy" type="Area2D"]
 position = Vector2(64, -34)
 script = ExtResource("1_pbfwk")
-move_direction = Vector2(0, -50)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("2_wlakn")
