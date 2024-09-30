@@ -19,3 +19,9 @@ func _physics_process(delta: float) -> void:
 		velocity.y = -jump_force
 	
 	move_and_slide()
+	
+	if global_position.y > 125:
+		game_over()
+
+func game_over():
+	get_tree().reload_current_scene()
